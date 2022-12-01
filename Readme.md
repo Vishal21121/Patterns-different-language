@@ -28,3 +28,7 @@ The repo is all about the star patterns in different languages
 ## Pattern6
 
 ![code](https://user-images.githubusercontent.com/89929777/204956026-f59ee363-a2df-42be-baab-00b6eb6eed6b.png)
+
+## Pattern7
+![code](https://user-images.githubusercontent.com/89929777/204957200-2658e9c2-77b5-41da-bc8a-38a801443e51.png)
+
