@@ -2,33 +2,7 @@
 
 The repo is all about the star patterns in different languages
 
-## Pattern1 
 
-![pattern1](https://user-images.githubusercontent.com/89929777/203301817-77ecebc1-eb9b-4b38-9381-e163b6a7d21c.png)
-
-
-## Pattern2
-
-![pattern2](https://user-images.githubusercontent.com/89929777/203302469-e3044a85-b7d2-441b-8d12-9b2adf009ee2.png)
-
-
-## Pattern3
-
-![pattern3](https://user-images.githubusercontent.com/89929777/203302536-5480fd75-9583-4418-a86a-c49de833b90b.png)
-
-
-## Pattern4
-![pattern4](https://user-images.githubusercontent.com/89929777/203302567-23b42a4f-2b6b-46e1-89d4-ad055d420fb0.png)
-
-
-## Pattern5
-
-![code](https://user-images.githubusercontent.com/89929777/203302594-9e329157-fadd-4b1c-b89c-a47fa5faeb10.png)
-
-## Pattern6
-
-![code](https://user-images.githubusercontent.com/89929777/204956026-f59ee363-a2df-42be-baab-00b6eb6eed6b.png)
-
-## Pattern7
-![code](https://user-images.githubusercontent.com/89929777/204957200-2658e9c2-77b5-41da-bc8a-38a801443e51.png)
-
+![1](https://user-images.githubusercontent.com/89929777/209965218-0699ab0e-7a15-4d18-b721-88c957e2b75a.png)
+![2](https://user-images.githubusercontent.com/89929777/209965423-6db5f5d6-30dd-42fc-86cb-d9e856c8a8e4.png)
+![3](https://user-images.githubusercontent.com/89929777/209965428-4d72602a-25fc-4152-9455-28eea937c8c5.png)
