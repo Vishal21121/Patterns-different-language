@@ -11,7 +11,7 @@ public class Pattern13 {
 
             for (int k = n-i; k >= 1; k--) {
 
-                System.out.print("3");
+                System.out.print(" ");
             }
 
             for (int j = 1; j <= i; j++) {
