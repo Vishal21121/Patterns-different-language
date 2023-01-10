@@ -9,6 +9,9 @@ The repo is all about the star patterns in different languages
 ![image](https://user-images.githubusercontent.com/89929777/210071266-34b25218-1308-4404-9946-58da547c7b8a.png)
 ![image](https://user-images.githubusercontent.com/89929777/210163668-a74e90d8-cabb-4266-9a7c-b6c59c6e0f95.png)
 ![image](https://user-images.githubusercontent.com/89929777/210849278-d582ef17-42f4-4c9d-ab8c-08de9528557a.png)
+![image](https://user-images.githubusercontent.com/89929777/211622764-254c0a7c-bd09-4f6e-b2f7-46929122df03.png)
+![image](https://user-images.githubusercontent.com/89929777/211623966-a7527301-a4e6-4504-9994-acdc4732a6e8.png)
+
 
 
 
