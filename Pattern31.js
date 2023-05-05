@@ -31,3 +31,5 @@ for(i = 1; i <= 2*n-1; i++) {
     process.stdout.write("\n")
 }
 
+
+
