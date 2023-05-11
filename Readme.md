@@ -1,17 +1,23 @@
 # Patterns-different-language
 
-The repo is all about the star patterns in different languages
+This repo contains code of different patterns in C, Java, JavaScript, Python, Go and Bash
 
+## Clone this repo
 
-![1](https://user-images.githubusercontent.com/89929777/209965218-0699ab0e-7a15-4d18-b721-88c957e2b75a.png)
-![2](https://user-images.githubusercontent.com/89929777/209965423-6db5f5d6-30dd-42fc-86cb-d9e856c8a8e4.png)
-![3](https://user-images.githubusercontent.com/89929777/209965428-4d72602a-25fc-4152-9455-28eea937c8c5.png)
-![image](https://user-images.githubusercontent.com/89929777/210071266-34b25218-1308-4404-9946-58da547c7b8a.png)
-![image](https://user-images.githubusercontent.com/89929777/210163668-a74e90d8-cabb-4266-9a7c-b6c59c6e0f95.png)
-![image](https://user-images.githubusercontent.com/89929777/210849278-d582ef17-42f4-4c9d-ab8c-08de9528557a.png)
-![image](https://user-images.githubusercontent.com/89929777/211622764-254c0a7c-bd09-4f6e-b2f7-46929122df03.png)
-![image](https://user-images.githubusercontent.com/89929777/211623966-a7527301-a4e6-4504-9994-acdc4732a6e8.png)
+1. Inorder to clone this repo run `git clone https://github.com/Vishal21121/Patterns-different-language.git`
 
+## Tech Stack
 
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
+## Access all patterns
 
+All pattern can be accessed [here](PATTERN_IMAGES)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). See the LICENSE file for more information.
+
+## Support 🙏
+
+Hey, if you find my GitHub repository **Patterns-different-language** helpful, could you consider leaving a star ⭐ for it? It would mean a lot to me and help others discover the project. Thanks in advance!
