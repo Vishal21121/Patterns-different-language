@@ -1,0 +1,28 @@
+name: 💡 Feature Request
+description: Have a new Pattern
+title: "[FEATURE] write a small description here"
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A brief description of the Pattern proposed.
+    validations:
+      required: true
+  - type: textarea
+    id: pattern_image
+    attributes:
+      label: Pattern Image
+      description: Please add pattern image
+    validations:
+      required: true
+  - type: textarea
+    id: filename
+    attributes:
+      label: Filename
+      description: Please add filename and it should be like PatternNum.extension, Num is the number more than the last Pattern
+      placeholder: PatternNum.extension
+  - type: markdown
+    attributes:
+      value: |
+        Feel free to check out other cool repositories [here](https://github.com/Vishal21121)
