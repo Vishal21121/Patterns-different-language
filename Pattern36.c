@@ -2,10 +2,10 @@
 void main()
 {
  /* Declare variables*/
- int i,j,no;
+ int i,j;
+ int no=7;
  
- printf("Enter the number:\n");
- scanf("%d",&no);
+
  /* Run loops*/
  for(i=1;i<=no*2-1;i++)
  {
