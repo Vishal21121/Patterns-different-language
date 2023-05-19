@@ -1,8 +1,6 @@
 
 
 no = int(input("Enter Star Dimension: "))
-print("-------------------------------------")
-
 
 rows=1
 
@@ -30,5 +28,3 @@ while (rows <= totColumns):
           print("*",end='')
        print()
     rows+=1
-
-print("-------------------------------------")
