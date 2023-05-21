@@ -1,41 +1,45 @@
-package pattern38;
 import java.util.Scanner;
 
+/**
+ * *
+ ** **
+ * * * *
+ * * * *
+ * ** *
+ * ** *
+ * * * *
+ * * * *
+ ** **
+ * *
+ * 
+ * 
+ */
 public class Pattern38 {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner sc= new Scanner(System.in);
-		System.out.println("Enter the number of rows and columns of the matrix");
-		int n=sc.nextInt();
-		n*=2;
-		//Initialize the matrix
-		char[][] pattern= new char[n][n];
-		for (int i=0; i<n ; i++) {
-			for (int j=0 ; j<n ; j++) {
-				pattern[i][j]=' ';
-			}
-		}
-		//Create the pattern
-		for (int i=0; i<n ; i++) {
-			pattern[i][0]='*';
-			pattern[i][n-1]='*';
-		}
-		
-		int pos=1;
-	
-		while(pos<n-1){
-			pattern[pos][pos]='*';
-			pattern[pos][n-(pos+1)]='*';
-			pos++;
-		}
-		//print the solution
-		for (int i=0; i<n ; i++) {
-			for (int j=0 ; j<n ; j++) {
-				System.out.print(pattern[i][j]+" ");
-			}
-			System.out.println();  
-		}
-		sc.close();		
-	}
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the number of times you want to execute : ");
+        int n = scanner.nextInt();
+        scanner.close();
+        Pattern(n);
+
+    }
+
+    // Pattern38 constructor
+    public static void Pattern(int n) {
+        n = n * 2;
+        for (int row = 1; row <= n; row++) {
+
+            for (int col = 1; col <= n; col++) {
+                if (row == col || col + row == n + 1 || col == 1 || col == n)
+                    System.out.print("*");
+                else
+                    System.out.print(" ");
+
+            }
+            System.out.println();
+
+        }
+    }
 }
