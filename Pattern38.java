@@ -1,10 +1,29 @@
+import java.util.Scanner;
+
 /**
- * Pattern38
+ * *
+ ** **
+ * * * *
+ * * * *
+ * ** *
+ * ** *
+ * * * *
+ * * * *
+ ** **
+ * *
+ * 
+ * 
  */
 public class Pattern38 {
 
     public static void main(String[] args) {
-        Pattern(5);
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the number of times you want to execute : ");
+        int n = scanner.nextInt();
+        scanner.close();
+        Pattern(n);
+
     }
 
     // Pattern38 constructor
@@ -14,9 +33,9 @@ public class Pattern38 {
 
             for (int col = 1; col <= n; col++) {
                 if (row == col || col + row == n + 1 || col == 1 || col == n)
-                    System.out.print("* ");
+                    System.out.print("*");
                 else
-                    System.out.print("  ");
+                    System.out.print(" ");
 
             }
             System.out.println();
