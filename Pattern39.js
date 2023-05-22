@@ -1,5 +1,5 @@
 function aPattern(n) {
-  for (let i = 1; i <= n + 2; i++) {
+  for (let i = 1; i <= 2*n - 3; i++) {
     for (let j = 1; j <= n - i; j++) {
       process.stdout.write(" ");
     }
