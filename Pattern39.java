@@ -1,27 +1,53 @@
+import java.util.Scanner;
+
 public class Pattern39 {
-    static void aPattern(int a){
-         int n = a + 2; // Number of rows
-
-        for (int i = 1; i <= n; i++) {
+    static void aPattern(int n) {
+        for (int i = 1; i <= n+2; i++) {
             for (int j = 1; j <= n - i; j++) {
-                System.out.print(" "); // Print spaces
+                System.out.print(" ");
             }
 
-            for (int k = 1; k <= 2 * i - 1; k++) {
-                if (k == 1 || k == 2 * i - 1) {
-                    System.out.print("*"); // Print stars at the beginning and end
-                } else if (i == (n + 1) / 2) {
-                    System.out.print("*"); // Print stars in the middle row
-                } else {
-                    System.out.print(" "); // Print spaces in other positions
+            if (i == 1) {
+                System.out.println("*");
+            } else if (i == n) {
+                for (int k = 1; k <= n; k++) {
+                    System.out.print("*");
+                    System.out.print(" ");
                 }
-            }
+                System.out.println();
+            }else if (i > n) {
+                for (int k = 1; k <= 2*n-3 ; k++) {
+                    if(k ==1 || k == 2*n-3){
+                        System.out.print("*");
+                        System.out.print(" ");
 
-            System.out.println(); // Move to the next line
+
+                    }
+                    System.out.print(" ");
+
+
+                }
+                System.out.println();
+            }
+            else {
+                System.out.print("*");
+                for (int k = 1; k <= 2 * i - 3; k++) {
+                    System.out.print(" ");
+                }
+                System.out.println("*");
+            }
         }
+
+
+
     }
+
     public static void main(String[] args) {
-        aPattern(9);
-       
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the value of n: ");
+        int n = scanner.nextInt();
+        scanner.close();
+
+        aPattern(n);
     }
 }
