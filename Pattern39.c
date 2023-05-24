@@ -34,7 +34,20 @@ int main()
             }
         }
         printf("\n");
+        
     }
+    for (i = 0; i < 2; i++)
+    {
+        for (j = 0; j < rows; j++)
+        {
+            if (j == 0 || j == rows - 1)
+                printf("* ");
+            else
+                printf("  ");
+        }
+        printf("\n");
 
+    }
     return 0;
 }
+
