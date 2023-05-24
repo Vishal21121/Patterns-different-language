@@ -12,8 +12,8 @@ function aPattern(n) {
       }
       console.log();
     } else if (i > n) {
-      for (let k = 1; k <= 2 * n - 3; k++) {
-        if (k === 1 || k === 2 * n - 3) {
+      for (let k = 1; k <= n; k++) {
+        if (k === 1 || k === n) {
           process.stdout.write("* ");
         } else {
           process.stdout.write("  ");
