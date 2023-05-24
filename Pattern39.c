@@ -2,41 +2,29 @@
 
 int main()
 {
-    int i, j, rows;
+    int i, j, k, rows;
 
-    /* Input rows to print from user */
-    printf("Enter number of rows : ");
+    printf("Enter a number: ");
     scanf("%d", &rows);
 
-    for(i=1; i<=rows; i++)
+    for (i = 0; i < rows; i++)
     {
-        /* Print trailing spaces */
-        for(j=i; j<rows; j++)
+        for (j = 0; j < rows-1-i; j++)
         {
             printf(" ");
         }
 
-        /* Print hollow pyramid */
-        for(j=1; j<=(2*i-1); j++)
+        for (k = 0; k < i+1; k++)
         {
-            /*
-             * Print star for last row (i==rows),
-             * first column(j==1) and for
-             * last column (j==(2*i-1)).
-             */ 
-            if(i==rows || j==1 || j==(2*i-1))
-            {
-                printf("*");
-            }
+            if (i>1 && i < rows-1 && k > 0 && k < i)
+            printf("  ");
             else
-            {
-                printf(" ");
-            }
+            printf("* ");
         }
         printf("\n");
-        
     }
-    for (i = 0; i < 2; i++)
+
+    for (i = 0; i < rows - 3; i++)
     {
         for (j = 0; j < rows; j++)
         {
@@ -50,4 +38,3 @@ int main()
     }
     return 0;
 }
-
