@@ -31,4 +31,7 @@ function main() {
 }
 
 // Call the main function to start the program
-main();
+// main();
+
+// Run the main function when the page is loaded
+window.addEventListener('load', main);
