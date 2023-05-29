@@ -32,7 +32,7 @@ for (let i = 0; i < n * 2; i++) {
         console.log(`${letter} `);
       }
 
-      console.log("\n");
+      console.log(" ");
     }
 }
 
@@ -46,7 +46,7 @@ const readline = require('readline');
 const FIRST_LETTER = 'A';
 const LETTERS_ALPHABET = 26;
 
-const rl = readline.createInterface({
+const input = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
@@ -66,6 +66,6 @@ input.question("Please enter a number\n", (n) => {
     process.stdout.write("\n");
   }
 
-  rl.close();
+  input.close();
 });
 */
