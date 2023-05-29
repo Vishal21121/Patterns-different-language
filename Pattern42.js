@@ -1,4 +1,16 @@
+/*
+  Before running this code you have to First, install the prompt-sync package 
+  by running the following command in your Node.js 
+  
+  *** npm install prompt-sync ***
+
+*/
+
+
+const prompt = require('prompt-sync')();
+
 // Constants for the first letter and number of letters in the alphabet
+
 const FIRST_LETTER = 'A';
 const LETTERS_ALPHABET = 26;
 
@@ -31,7 +43,7 @@ function main() {
 }
 
 // Call the main function to start the program
-// main();
+main();
 
 // Run the main function when the page is loaded
-window.addEventListener('load', main);
+// window.addEventListener('load', main);
