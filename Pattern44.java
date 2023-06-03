@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class Pattern44 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
+        System.out.println("Enter a value for n: ");
         int n = s.nextInt();
         int k = n * 2 - 1;
 
