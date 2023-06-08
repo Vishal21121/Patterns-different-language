@@ -20,7 +20,7 @@ public static void printUseBinomialExpansion(int n) {
 }
    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-      System.out.print("Enter : );
+      System.out.print("Enter : ");
        int n = scanner.nextInt();
         printUseBinomialExpansion(n);
 
