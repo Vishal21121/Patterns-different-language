@@ -2,7 +2,7 @@
 
 echo "Enter a number:"
 read num
-for((i=0;i<=num;i++))
+for((i=0;i<num;i++))
 do
     for((j=0;j<=i;j++))
     do
