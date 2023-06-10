@@ -12,7 +12,8 @@ This repo contains code of different patterns in C, Java, JavaScript, Python, Go
 
 ## Access all patterns
 
-All pattern can be accessed [here](PATTERN_IMAGES)
+All patterns code can be accessed [here](PATTERNS)
+All pattern images can be accessed [here](PATTERN_IMAGES)
 
 ## License
 
