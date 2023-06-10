@@ -29,7 +29,7 @@ var generate = function(numRows) {
     for (var j = 0; j <= i; j++) {
       row += result[i][j] + ' ';
     }
-    triangleString += row.trim() + '\n';
+    triangleString += row + '\n';
   }
 
   return triangleString;
