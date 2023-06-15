@@ -5,4 +5,4 @@ def print_hourglass(size):
         print(" " * (size - i) + "*" * (2 * i - 1))
 
 size = input("input the size: ")
-print_hourglass(size)
+print_hourglass(int(size))
