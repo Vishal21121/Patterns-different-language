@@ -1,3 +1,6 @@
+#note size is the numeber of rows including the middle
+
+
 def print_hourglass(size):
     for i in range(size, 0, -1):
         print(" " * (size - i) + "*" * (2 * i - 1))
