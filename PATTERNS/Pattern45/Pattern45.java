@@ -2,45 +2,28 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner z = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number of rows: ");
-        int rows = z.nextInt(); // Number of rows in the rhombus
-        for (int i = 1; i <= rows; i++) {
-            // Print spaces
-            for (int j = 1; j <= rows - i; j++) {
+        int rows = scanner.nextInt();
+
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < rows - i - 1; j++) {
                 System.out.print(" ");
             }
-
-            // Print stars for left diagonal
-            for (int k = 1; k <= i; k++) {
-                System.out.print("*");
+            for (int j = 0; j < i + 1; j++) {
+                System.out.print("* ");
             }
-
-            // Print stars for right diagonal
-            for (int k = i - 1; k >= 1; k--) {
-                System.out.print("*");
-            }
-
-            System.out.println(); // Move to the next line
+            System.out.println();
         }
 
-        for (int i = rows - 1; i >= 1; i--) {
-            // Print spaces
-            for (int j = 1; j <= rows - i; j++) {
+        for (int i = rows - 2; i >= 0; i--) {
+            for (int j = 0; j < rows - i - 1; j++) {
                 System.out.print(" ");
             }
-
-            // Print stars for left diagonal
-            for (int k = 1; k <= i; k++) {
-                System.out.print("*");
+            for (int j = 0; j < i + 1; j++) {
+                System.out.print("* ");
             }
-
-            // Print stars for right diagonal
-            for (int k = i - 1; k >= 1; k--) {
-                System.out.print("*");
-            }
-
-            System.out.println(); // Move to the next line
+            System.out.println();
         }
     }
 }
