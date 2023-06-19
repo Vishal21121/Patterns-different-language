@@ -1,4 +1,14 @@
-let n = 5;
+const readline = require('readline');
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+rl.question('Enter the number of rows: ', (n) => {
+  // Convert rows to a number
+  rows = parseInt(n);
+  
 // Upside pyramid
 for (let i = 1; i <= n; i++) {
   // printing spaces
