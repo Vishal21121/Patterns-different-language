@@ -5,9 +5,9 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-rl.question('Enter the number of rows: ', (n) => {
+rl.question('Enter the number of n: ', (n) => {
   // Convert rows to a number
-  rows = parseInt(n);
+  n = parseInt(n);
   
 // Upside pyramid
 for (let i = 1; i <= n; i++) {
