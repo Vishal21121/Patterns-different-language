@@ -1,5 +1,6 @@
-function generatePattern(input) {
+function generatePattern() {
     let pattern = '';
+    let input = prompt("enter a number: ")
   
     for (let i = input; i >= 1; i--) {
       for (let j = input; j >= 1; j--) {
@@ -14,8 +15,4 @@ function generatePattern(input) {
   
     return pattern;
   }
-  
-  // Example usage:
-  const input = 4;
-  const pattern = generatePattern(input);
-  console.log(pattern);
+  console.log(generatePattern());
