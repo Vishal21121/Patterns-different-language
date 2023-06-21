@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Pattern46 {
     public static void main(String[] args) {
         Scanner z = new Scanner(System.in);
         System.out.print("Enter the number of rows: ");
