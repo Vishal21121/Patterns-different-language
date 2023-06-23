@@ -1,3 +1,5 @@
+const readline = require('readline');
+
 function printPattern(rows) {
     let col, num = 0;
 
@@ -10,7 +12,7 @@ function printPattern(rows) {
             // Printing in ascending order
             for (col = num + 1; col < num + row; col++)
                 process.stdout.write(col + " ");
-            console.log(col);
+            console.log(col++);
 
             // Update value of 'num'
             num = col;
@@ -30,3 +32,19 @@ function printPattern(rows) {
     }
 }
 
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+  });
+
+  rl.question("Enter the number of rows for Pascal's triangle: ", function(numRowsInput) {
+    // Parse the input as an integer
+    var numRows = parseInt(numRowsInput, 10);
+  
+    // Generate Pascal's triangle
+    var pascalTriangle = printPattern(numRows);
+  
+    console.log(pascalTriangle);
+  
+    rl.close();
+  });
