@@ -44,7 +44,7 @@ const rl = readline.createInterface({
     // Generate Pascal's triangle
     var pascalTriangle = printPattern(numRows);
   
-    console.log(pascalTriangle);
+    //console.log(pascalTriangle);
   
     rl.close();
   });
