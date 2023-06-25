@@ -42,7 +42,9 @@ void printLineOfPrimes(int offset, int lineDigits, int max) {
 }
 
 int main() {
-    int n = 5;
+    int n;
+    printf("enter the number of lines N : ");
+    scanf("%d", &n);
     
     printLineOfPrimes(1, 1, n + 1);
     
