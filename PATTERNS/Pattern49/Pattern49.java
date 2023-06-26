@@ -1,3 +1,4 @@
+import java.util.*;
 public class Pattern49
 {
 public static boolean isPrimeNumber(int num) {
@@ -13,8 +14,12 @@ public static boolean isPrimeNumber(int num) {
 }
 public static void main(String args[])
     {
-        int counter = 2,k=4,j;    
-         for (int i = 1; i <= 5; i++) {
+      Scanner sc=new Scanner(System.in);
+        int counter = 2,k=0,j,rows; 
+        System.out.println("enter the no of rows");
+        rows=sc.nextInt();
+        k=rows-1;   
+         for (int i = 1; i <= rows; i++) {
          for(j=1;j<=k;j++)
          System.out.print(" ");
          for (j = 1; j <= i; j++) {
