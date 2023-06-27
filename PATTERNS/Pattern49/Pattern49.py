@@ -6,7 +6,7 @@ def isPrime(n):
     return True
 
 def prime(count):
-    i = 0
+    i = 1
     while(True):
         i += 1
         if isPrime(i):
@@ -18,7 +18,7 @@ n = int(input("Enter the number of rows:"))
 
 count = 1
         
-for i in range(n):
+for i in range(n+1):
     print(" " * (n-i), end="")
     for j in range(i):
         print(prime(count),end = " ")
