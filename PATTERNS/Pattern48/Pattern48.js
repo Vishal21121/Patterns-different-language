@@ -12,7 +12,7 @@ function printPattern(rows) {
             // Printing in ascending order
             for (col = num + 1; col < num + row; col++)
                 process.stdout.write(col + " ");
-            console.log(col);
+            console.log(col++);
 
             // Update value of 'num'
             num = col;
@@ -27,7 +27,7 @@ function printPattern(rows) {
             // Print numbers in decreasing order
             for (col = num; col > num - row + 1; col--)
                 process.stdout.write(col + " ");
-            console.log(col);
+            console.log(col--);
         }
     }
 }
@@ -44,7 +44,7 @@ const rl = readline.createInterface({
     // Generate Pascal's triangle
     var pascalTriangle = printPattern(numRows);
   
-    //console.log(pascalTriangle);
+    // console.log(pascalTriangle);
   
     rl.close();
   });
