@@ -33,5 +33,5 @@ r1.on('line' , (num) => {
         console.log();
     }
     
-    
+    r1.close();
 })
